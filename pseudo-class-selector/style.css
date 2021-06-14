@@ -1,0 +1,10 @@
+article :first-child{
+    font-weight: bold;
+    font-size: 140%;
+}
+article :last-child{
+    font-weight: bold;
+}
+ul li:nth-child(2){
+    color: pink;
+}
