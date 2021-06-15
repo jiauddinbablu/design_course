@@ -1,0 +1,20 @@
+.tweet{
+    border: 1px solid gray;
+    /* overflow: hidden; */
+}
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: .5rem;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* .clear{
+    clear: both;
+} */
