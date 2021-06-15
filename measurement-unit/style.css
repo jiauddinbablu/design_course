@@ -1,0 +1,8 @@
+.box{
+    width: 10rem;
+    height: 50vh;
+    background-color: gold;
+}
+p{
+    font-size: 2em;
+}
