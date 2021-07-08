@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    background: gold;
+    padding: 1rem;
+}
+.box:nth-of-type(2){
+    background: dodgerblue;
+}
+
+@media screen and (min-width:600px) and (min-width:900px) {
+    .container{
+        flex-direction: row;
+    }
+}
