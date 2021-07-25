@@ -1,0 +1,8 @@
+/* .meal{
+    filter: grayscale(30%) blur(2px) brightness(80%) hue-rotate(90deg) saturate(50%) drop-shadow(16px 16px 20px red)
+    ;
+
+} */
+.meal:hover{
+    filter: grayscale(10%) blur(1px);
+}
