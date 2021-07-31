@@ -1,0 +1,38 @@
+body{
+    background-color: #20c997;
+    
+    height: 100vh;
+}
+form{
+    background-color: #fff;
+    box-shadow: 0 0 3px #333;
+    padding: 2rem;
+    width: 35%;
+    margin: 0 auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.heading hr{
+    box-sizing: border-box;
+    margin:1rem 0;
+}
+.heading h4{
+    font-weight: 500;
+    margin: 0;
+}
+.heading p{
+    font-size: 1rem;
+    margin: 0;
+}
+/* .input-group input{
+    display: inline;
+} */
+.name > input:first-child{
+    width: 49%;
+}
+.name > input:nth-of-type(2){
+    width: 49%;
+}
+label >p{
+    font-size: 1rem;
+}

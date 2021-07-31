@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transition: transform .5s, background 0.5s;
+}
+.box:hover{
+    transform:rotate(45deg);
+    background: dodgerblue;
+}
